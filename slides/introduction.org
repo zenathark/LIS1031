@@ -1,0 +1,60 @@
+#+OPTIONS: H:1
+#+LATEX_CLASS: beamer
+#+COLUMNS: %45ITEM %10BEAMER_env(Env) %10BEAMER_act(Act) %4BEAMER_col(Col) %8BEAMER_opt(Opt)
+#+BEAMER_THEME: default
+#+BEAMER_COLOR_THEME:
+#+BEAMER_FONT_THEME:
+#+BEAMER_INNER_THEME:
+#+BEAMER_OUTER_THEME:
+#+BEAMER_HEADER:
+
+#+TITLE: Object Oriented Programming
+#+AUTHOR: PhD Juan Carlos Galan Hernandez
+#+EMAIL: juan.galan@udlap.mx
+#+DATE: 2016-08-16 Tue
+#+BEAMER_HEADER: \graphicspath{{../img/}}
+#+BEAMER_HEADER: \titlegraphic{\includegraphics[width=.3\textwidth]{logoudlap.png}}
+
+* Welcome
+
+** Contact
+- Prof. Juan Carlos Galan Hernandez
+- Room: LA-202
+- Email: juan.galan@udlap.mx
+- Web Page: http://juancgalan.com
+- Lecture Web Page: http://juancgalan.com/LIS1011
+
+* Objetive
+At the end of this course, students will be able to design and develop usign Object Oriented Programming
+paradigm.
++ To Develop applications using Object Oriented Programming patterns
++ To Design applications using the Unified Model Language (UML)
++ To Develop applications based on the Java Language
++ To Create Graphical User Interface based applications and Command Line Interface based applications
+
+* Grades
+
++ Elements of Assessment
+  - 3 Partial exams 45%
+  - 1 Final exam    45%
+  - Homework Assignments 55%
++ Partial Exam Dates
+  - September 5
+  - October 3
+  - November 2
++ Final Exam Date: TBA
+
+* Tools
+- Oracle JDK
+- Text Editor (Sublime, emacs, vim, Notepad++)
+- IntelliJ Idea
+- Terminal Emulator (iterm, cmd, powershell, gnome terminal)
+- Latex
+
+* Reference
+
+1. Erich Gamma, Richard Helm, Ralph Jhonson, Jhon M. Vlissides; Design Patterns, Elements of Reusable Object Oriented Software; Addison Wesley; 1994
+2. Herbert Schildt; Java, A Begginer's Guide; McGraw Hill; 2014
+3. Matt Weisfeld; The Object Oriented Thought Process; 3 Ed.; Addison Wesley Professional; 2008
+4. Steve McConnel; Software Complete 2 A Practical Handbook of Software Construction; Microsoft Press; 2004
+5. Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein; Introduction to Algorithms; 3 Ed.; MIT Press; 2009

@@ -1,0 +1,100 @@
+#+LATEX_CLASS: koma-article
+#+LATEX_CLASS_OPTIONS: [BCOR=0mm, DIV=11, headinclude=false, footinclude=false, paper=A4, fontsize=8pt]
+#+LATEX_HEADER: \usepackage{syllabus}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+TITLE:
+#+OPTIONS: H:1 toc:nil
+
+#+ATTR_LATEX: :align |X[-1,c,m]|X[c,m]| :environment tabu :width \textwidth
+|--------------------------------------------------+---------------------------------------------------------|
+|                                                  | Bachelor in Computer Science and Information Technology |
+| \includegraphics[width=2cm]{./img/logowhite.png} | *Syllabus*                                              |
+| Engineering School                               | Object Oriented Programming                             |
+|--------------------------------------------------+---------------------------------------------------------|
+
+#+ATTR_LATEX: :align |l|X[3]|l|X[1]| :environment tabu :width \textwidth
+|---------------+-----------------------------------------+----------+-----------|
+| *Departament* | Computing, Electronics and Mechatronics | *Course* | LIS1031   |
+| *Instructor*  | PhD Juan Carlos Galán Hernández         | *Term*   | Fall 2016 |
+|---------------+-----------------------------------------+----------+-----------|
+
+* General Objective
+At the end of this course, students will be able to design and develop usign Object Oriented Programming
+paradigm.
+
+* Student Learning Outcomes
+By the end of this course, students will be able to:
++ To Develop applications using Object Oriented Programming patterns
++ To Design applications using the Unified Model Language (UML)
++ To Develop applications based on the Java Language
++ To Create Graphical User Interface based applications and Command Line Interface based applications
+
+* Course Prerequisites
+This course does not have any prerequisites
+
+* Contents
+
+#+LATEX: \begin{multicols}{2}
+1. Object Oriented Software Development
+   1. Software Engineering and SCRUM
+   2. Clases and Objects
+   3. Messages and Methods
+   4. Inheritance and Encapsulation
+2. UML Object Oriented Design
+   1. Class Diagram
+   2. Sequence Diagram
+   3. Objects Diagram
+3. Object Oriented Programming
+   1. Development Environments
+   2. Data types, variables and assignment
+   3. Class definition and creation of instances
+   4. Control Flow
+4. Arrays
+   1. Static Structures
+   2. Primitive Arrays
+   3. Object Arrays
+   4. Multi dimentional arrays
+5. Event Oriented Programming
+   1. Event Handling
+   2. GUI Programming
+   3. Exceptions
+6. I/O Programming
+   1. Library Components for file handling
+   2. Low level stream handling
+   3. High level stream handling
+#+LATEX: \end{multicols}
+
+* Evaluation Criteria and Evaluation Dates
++ Elements of Assessment
+  - 3 Partial exams 45%
+  - 1 Final exam    45%
+  - Homework Assignments 55%
++ Partial Exam Dates
+  - September 5
+  - October 3
+  - November 2
++ Final Exam Date: TBA
++ General Policy
+  - It is student’s responsibility to stay in campus or near this until the last day of final exams, which can be scheduled for a period of ten working days after the final day of lectures.
+  - It is advised to attend all lectures.
+  - The delivery of homeworks and projects in the set time is important. NO assignments will be accepted out of time. Work submitted late (with justification) will be assessed on 80% of its original value. No assignments will be accepted more than one week late.
+  - The student requires 80% attendance to be eligible to present the final test.
+  - Any case of plagiarism or academic fraud is punishable by a 0 (zero) in the task or job in question. If a student commits fraud for a second time, the case will be presented to the Board of the Department, where the penalty will be determined.
+
+* Recomended and Supplementary textbooks
+#+LATEX: \renewcommand{\labelenumi}{[\arabic{enumi}]}
+1. Erich Gamma, Richard Helm, Ralph Jhonson, Jhon M. Vlissides; Design Patterns, Elements of Reusable Object Oriented Software; Addison Wesley; 1994
+2. Herbert Schildt; Java, A Begginer's Guide; McGraw Hill; 2014
+3. Matt Weisfeld; The Object Oriented Thought Process; 3 Ed.; Addison Wesley Professional; 2008
+4. Steve McConnel; Software Complete 2 A Practical Handbook of Software Construction; Microsoft Press; 2004
+5. Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein; Introduction to Algorithms; 3 Ed.; MIT Press; 2009
+
+
+#+BEGIN_LATEX
+%%% Local Variables:
+%%% TeX-master: t
+%%% coding: utf-8
+%%% mode: latex
+%%% TeX-engine: xetex
+%%% End:
+#+END_LATEX
