@@ -1,0 +1,78 @@
+#+LATEX_CLASS: koma-article
+#+LATEX_CLASS_OPTIONS: [BCOR=0mm, DIV=11, headinclude=false, footinclude=false, paper=A4, fontsize=8pt]
+#+LATEX_HEADER: \usepackage{syllabus}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+TITLE:
+#+OPTIONS: H:1 toc:nil
+
+#+ATTR_LATEX: :align |X[-1,c,m]|X[c,m]| :environment tabu :width \textwidth
+|--------------------------------------------------+---------------------------------------------------------|
+|                                                  | Bachelor in Computer Science and Information Technology |
+| \includegraphics[width=2cm]{./img/logowhite.png} | *Test 2*                                         |
+| Engineering School                               | Object Oriented Programming                             |
+|--------------------------------------------------+---------------------------------------------------------|
+
+#+ATTR_LATEX: :align |l|X[3]|l|X[1]| :environment tabu :width \textwidth
+|---------------+-----------------------------------------+----------+-----------|
+| *Departament* | Computing, Electronics and Mechatronics | *Course* | LIS1031   |
+| *Instructor*  | PhD Juan Carlos Galán Hernández         | *Term*   | Fall 2016 |
+|---------------+-----------------------------------------+----------+-----------|
+
+ID:
+
+Name:
+
+* Objetivo
+Este examen evaluará su capacidad para usar de manera práctica el uso de de clases,
+sobrecarga y su capacidad de abstracción.
+
+** Elementos a evaluar:
+  + Gramática.
+  + Limpieza de código.
+  + Lógica en la implementación.
+  + Correctividad en los resultados.
+
+* Instrucciones:
+  + Construya la solución que se solicita en la siguiente sección.
+  + La solución debe cumplir con todas las condiciones vistas en clase sobre
+	buenas prácticas.
+
+* Proyecto:
+  Realize una solución que cuente con una clase que represente los números
+  fraccionales. Por definición debe tener dos elementos: *numerador* y
+  *denominador*.
+
+  La clase debe contener los siguientes métodos públicos:
+
+	1. ~suma~: Debe ser capaz de sumar el número actual con otro dado y regresar el
+	   resultado como fracción usando una nueva instancia de la clase.
+	2. ~resta~: Debe ser capaz de restar el número actual con otro dado y regresar el
+	   resultado como fracción usando una nueva instancia de la clase.
+	3. ~multiplicacion~: Debe de regresar el resultado de multiplicar la fracción actual
+	   con otra fracción. El resultado es una nueva instancia de la clase que
+	   representa la fracción.
+	4. ~division~: Lo mismo que el punto anterior pero que realize la operación división.
+	5. ~toString~: Este método regresa una cadena con es siguiente formato: "n/d", donde
+	   n es el valor del numerador y d el denominador.
+
+  La clase debe almacenar siempre la fracción simplificada. Es decir, si la fracción es
+  construida como $2/4$ la clase deberá almacenar $1/2$.
+
+  Los enteros son representados con el denominador en $1$. $2/1$ para $2$, $5/1$ para $5$
+  etc.
+
+* Fecha de entrega:
+  Jueves 20 de Octubre del 2016 antes de las 24hrs.
+
+* Modo de entrega.
+  El archivo java deberá ser enviado a [[mailto:juan.galan@udlap.mx][juan.galan@udlap.mx]], se tomará en cuenta como
+  fecha de entrega la hora en que el correo fue recibido.
+
+#+BEGIN_LATEX
+%%% Local Variables:
+%%% TeX-master: t
+%%% coding: utf-8
+%%% mode: latex
+%%% TeX-engine: xetex
+%%% End:
+#+END_LATEX

@@ -1,0 +1,9 @@
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<FlowPane xmlns:fx="http://javafx.com/fxml" fx:controller="sample.OpenDialogController">
+    <Label text="Open Directory" />
+    <TextField fx:id="path" editable="false"/>
+    <Button text="Open" onAction="#openDirectory"/>
+</FlowPane>

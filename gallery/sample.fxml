@@ -1,0 +1,20 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+
+<FlowPane xmlns:fx="http://javafx.com/fxml" fx:controller="sample.Controller">
+    <MenuBar>
+        <Menu text="File">
+            <items>
+                <MenuItem text="Open..." onAction="#handleOpenAction"/>
+            </items>
+        </Menu>
+    </MenuBar>
+    <ImageView fitWidth="300" fitHeight="190" fx:id="imagePanel"/>
+    <Button text="Previous Image" onAction="#previous" />
+    <Button text="Next Image" onAction="#next"/>
+</FlowPane>
